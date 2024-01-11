@@ -16,13 +16,13 @@ const openDatabase = (filename) => {
 const createTable = (db) => {
 	return new Promise((resolve, reject) => {
 		const createTableQuery = `
-      CREATE TABLE IF NOT EXISTS groceries(
-        id INTEGER PRIMARY KEY,
-        item_name TEXT,
-        count INTEGER,
-        item_price REAL,
-        total_price REAL
-      )
+		CREATE TABLE IF NOT EXISTS groceries(
+			id INTEGER PRIMARY KEY,
+			item_name TEXT,
+			count INTEGER,
+			item_price REAL,
+			total_price REAL
+		)
     `;
 
 		db.run(createTableQuery, (err) => {

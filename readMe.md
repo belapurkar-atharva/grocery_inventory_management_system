@@ -44,3 +44,48 @@ This is a simple Grocery Inventory Management System built using Node.js, Expres
 - POST /grocery
 
   Adds or updates a grocery item in the database.
+
+# Grocery Inventory Management System (Frontend)
+
+This repository contains a simple web application built using Vite and React. The application has functionalities to make api calls to the backend to get grocery items from it as well as add items to the database.
+
+## Getting Started
+
+**Prerequisites:**
+
+Make sure you have Node.js and npm installed on your machine.
+
+- Node.js
+- npm
+
+**Installation:**
+
+Clone the repository:
+
+```bash
+git clone <repo-url>
+```
+
+**Navigate to the project directory:**
+
+```bash
+cd vite-react-app
+```
+
+**Install dependencies:**
+
+```bash
+npm install
+```
+
+**Development:**
+
+To start the development server, run the following command:
+
+```bash
+npm run dev
+```
+
+This will launch the application in development mode.
+
+Open http://localhost:5173 in your browser to view the application.
